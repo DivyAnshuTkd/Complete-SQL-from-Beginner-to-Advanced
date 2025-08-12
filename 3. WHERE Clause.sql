@@ -28,7 +28,7 @@ WHERE (first_name = 'Leslie' AND age = 44) OR age > 55   # PEMDAS is applied
 
 SELECT *
 FROM employee_demographics
-WHERE first_name LIKE 'er%'     # it means first_name starting with Jer and then anything after Jer
+WHERE first_name LIKE 'er%'     # it means first_name starting with er and then anything after Jer
 ;
 
 SELECT *
