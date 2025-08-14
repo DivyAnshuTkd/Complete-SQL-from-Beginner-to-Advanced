@@ -95,6 +95,6 @@ ORDER BY age, gender
 
 SELECT *
 FROM employee_demographics
-ORDER BY 5, 4
+ORDER BY 5, 4                            -- This orders the result set by column position numbers, not column names.
 ;
 
